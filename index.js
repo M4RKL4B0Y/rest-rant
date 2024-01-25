@@ -9,11 +9,15 @@ app.engine('jsx', require('express-react-views').createEngine)
 
 app.use('/places', require('./controllers/places'))
 
+//HOME
 app.get('/', (req, res) => {
     res.send('Home')
     // res.render('Home')
 })
 
+  
+
+//404
 app.get('*', (req, res) => {
     // res.status(404).send('<h1>404 Page</h1>')
     // res.render('error404')
