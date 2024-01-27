@@ -28,5 +28,5 @@ places
 | city    | String |
 | state   | String |
 | cuisines| String |
-| pic     | String |
+| pic     | String (a URL) |
 
