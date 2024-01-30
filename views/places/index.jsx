@@ -1,12 +1,13 @@
 const React = require('react')
 const Def = require('../default')
 
-//Import React and your default component.
-//Make a function called index and fill it with some stub HTML.
-//Export the index function.
+
 
 
 function index (data) {
+
+
+  
   let placesFormatted = data.places.map((place) => {
     return (
       <div>
@@ -16,14 +17,15 @@ function index (data) {
     )
   })
   return (
-      <Def>
-          <main>
-              <h1>Places Index</h1>
-              {placesFormatted}
-          </main>
-      </Def>
-  )
+    <Def>
+        <main>
+            <h1>PLACES INDEX PAGE</h1>
+            {placesFormatted}
+        </main>
+    </Def>
+)
 }
+
 
 module.exports = index
 
